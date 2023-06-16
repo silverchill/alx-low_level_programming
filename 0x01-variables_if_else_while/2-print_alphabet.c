@@ -7,13 +7,14 @@
  */
 int main(void)
 {
-	int x = 97;
+	int x;
 
-	while (x <= 122)
+	for (x = 97; x < 123; x++)
 	{
-		putchar(x);
-		x++;
+		if (x != 101 && x != 113)
+		{
+			putchar(x);
+		}
 	}
-	putchar("\n");
 	result(0);
 }
