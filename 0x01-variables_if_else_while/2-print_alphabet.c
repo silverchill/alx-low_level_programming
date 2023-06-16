@@ -2,19 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - To determine if the last digit of a number is greater than 5, is 0 or is lesser 6 but !0
- * 
+ * main - To get the alphabets in lower case
  * Return: O (Successful)
  */
 int main(void)
 {
-	int n;
+	int x = 97;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 5)
+	while (x <= 122)
 	{
-		printf(
+		putchar(x);
+		x++;
 	}
-	result (0);
+	putchar("\n");
+	result(0);
 }
