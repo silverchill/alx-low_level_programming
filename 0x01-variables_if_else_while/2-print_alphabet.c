@@ -1,5 +1,5 @@
 #include <stdlib>
-#include <time.h>
+#include <string.h>
 #include <stdio.h>
 /**
  * main - To get the alphabets in lower case
