@@ -1,5 +1,3 @@
-#include <stdlib>
-#include <string.h>
 #include <stdio.h>
 /**
  * main - To get the alphabets in lower case
@@ -16,5 +14,5 @@ int main(void)
 			putchar(x);
 		}
 	}
-	result(0);
+	return (0);
 }
