@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	int p = 0;
+	int p = 48;
 
-	for (p = 0; p < 10; p++)
+	for (p = 48; p < 58; p++)
 	{
 		putchar(p);
 	}
