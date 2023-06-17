@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char p = 0;
+	int p = 0;
 
 	for (p = 0; p < 10; p++)
 	{
