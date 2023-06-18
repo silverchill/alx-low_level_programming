@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - To print the lower case alphabets
+ *main - To print the lower case alphabets except q and e
  *Return: 0 (Successful)
  */
 int main(void)
@@ -11,8 +11,8 @@ int main(void)
 	{
 		if (s == 101 || s == 113)
 		{
-			continue;
 			s++;
+			continue;
 		}
 		putchar(s);
 		s++;
