@@ -16,12 +16,12 @@ int main(void)
 			{
 				putchar(u);
 				putchar(v);
-				putchar(',');
-				putchar(' ');
 				if (u != 56 || v != 57)
 				{
-					break;
+					continue;
 				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
