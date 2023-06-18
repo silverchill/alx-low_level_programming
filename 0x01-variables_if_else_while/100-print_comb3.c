@@ -16,7 +16,7 @@ int main(void)
 			{
 				putchar(u);
 				putchar(v);
-				if (u == 56 || v == 57)
+				if (u > 56 || v > 57)
 				{
 					continue;
 				}
