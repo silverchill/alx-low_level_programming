@@ -8,7 +8,23 @@ int main(void)
 	int u;
 	int v;
 
-	for (u = 0; u <= 99; u++)
-
-
+	for (u = 48; u <= 56; u++)
+	{
+		for (v = 49; v <= 57; v++)
+		{
+			if (u < v)
+			{
+				putchar(u);
+				putchar(v);
+				if (u != 56 || v != 57)
+				{
+					continue;
+				}
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
