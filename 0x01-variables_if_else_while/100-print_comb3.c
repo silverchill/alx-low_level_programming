@@ -20,7 +20,7 @@ int main(void)
 				putchar(' ');
 				if (u != 56 || v != 57)
 				{
-					continue;
+					break;
 				}
 			}
 		}
