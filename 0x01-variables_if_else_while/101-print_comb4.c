@@ -19,7 +19,7 @@ int main(void)
 				putchar(q);
 				putchar(r);
 				putchar(s);
-				if (q == 55 || r == 56 || s == 57)
+				if (q == 55 && r == 56 && s == 57)
 				{
 					continue;
 				}
