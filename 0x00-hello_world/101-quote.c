@@ -1,14 +1,10 @@
-#include <stdio.h>
-#include <unistd.h>
+#include <stdlib.h>
 /**
- *main - To print to a standard error
+ *main - To print a standard error
  *Return: 0 (Successful)
  */
 int main(void)
 {
-	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-
-	fwrite(str, sizeof(char), sizeof(str) - 1, stdout);
-	
+	system("echo 'and that piece of art is useful\" - Dora Korpar, 2015-10-19'");
 	return (0);
 }
