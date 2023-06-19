@@ -10,13 +10,13 @@ int main(void)
 
 	for (g = 0; g <= 98; g++)
 	{
-		for (h = 1; h <= 99; h++)
+		for (h = g + 1; h <= 99; h++)
 		{
-			putchar((g / 10)) + '0';
-			putchar((g % 10)) + '0';
+			putchar((g / 10) + '0');
+			putchar((g % 10) + '0');
 			putchar(' ');
-			putchar((h / 10)) + '0';
-			putchar((h % 10)) + '0';
+			putchar((h / 10) + '0');
+			putchar((h % 10) + '0');
 
 			if (g == 98 && h == 99)
 			{
