@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *main - Print lower letter
+ *print_alphabet - Print lower letter
  *Return: Always 0.
  */
-int main(void)
+void print_alphabet(void);
 {
 	char j;
 
