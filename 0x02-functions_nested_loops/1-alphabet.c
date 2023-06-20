@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *main - check the code
+ *print_alphabet - check the code
  *Return: Always 0.
  */
-void main(void)
+void print_alphabet(void)
 	int j;
 	
 	for (j = 97; j < 123; j++)
