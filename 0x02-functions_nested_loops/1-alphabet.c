@@ -3,7 +3,7 @@
  *main - check the code
  *Return: Always 0.
  */
-int main(void)
+void main(void)
 	int j;
 	
 	for (j = 97; j < 123; j++)
