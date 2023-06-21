@@ -11,7 +11,7 @@ void times_table(void)
 	for (w = 0; w <= 9; w++)
 	{
 		_putchar('0');
-		for (y = 1; y <= 9; y++)
+		for (y = 0; y <= 9; y++)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -25,7 +25,7 @@ void times_table(void)
 				_putchar((z / 10) + '0');
 				_putchar((z % 10) + '0');
 		}
-	}
 	_putchar('\n');
+	}
 	}
 }
