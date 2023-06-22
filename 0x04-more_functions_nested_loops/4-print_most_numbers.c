@@ -6,16 +6,17 @@
  */
 void print_most_numbers(void)
 {
-	int v;
+	int v = 48;
 
-	for (v = 48; v <= 57; v++)
+	while (v <= 57)
 	{
-		if (v == 50 && v == 52)
+		if (v == 50 || v == 52)
 		{
 			v++;
 			continue;
 		}
 		_putchar(v);
+		v++;
 	}
 	_putchar('\n');
 }
