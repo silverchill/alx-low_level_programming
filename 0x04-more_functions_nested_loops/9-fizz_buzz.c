@@ -27,9 +27,7 @@ int main(void)
 			printf("%d", k);
 		}
 		if (k != 0)
-		{
 		printf(" ");
-		}
 	}
 	printf("\n");
 	return (0);
