@@ -1,1 +1,1 @@
-Solving tasks on Static libraries
+Solving static library tasks
