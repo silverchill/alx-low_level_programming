@@ -16,7 +16,7 @@ struct dog
 };
 
 /**
- * dog_t Is the typedef of struct dog
+ * dog_t - Is the typedef of struct dog
  */
 typedef struct dog dog_t;
 
