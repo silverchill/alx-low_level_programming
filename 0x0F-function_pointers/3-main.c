@@ -1,4 +1,5 @@
 #include "3-calc.h"
+#include "function_pointers.h"
 
 /**
  * main - To print fxn that perform simple operations
