@@ -1,6 +1,7 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * print_strings - To print a fxn that print strings followed by \n
