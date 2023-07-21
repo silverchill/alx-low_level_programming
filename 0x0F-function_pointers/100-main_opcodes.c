@@ -17,12 +17,14 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(1);
 	}
-	bytes = atoi(argv[r]);
+
+	bytes = atoi(argv[1]);
 	if (bytes < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
+
 	array = (char *)main;
 	for (r = 0; r < bytes; r++)
 	{
