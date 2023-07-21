@@ -1,5 +1,6 @@
 #include "3-calc.h"
 #include <stdlib.h>
+#include "function_pointers.h"
 
 /**
  * get_op_func - To print the fxn selects the correct function to perform
