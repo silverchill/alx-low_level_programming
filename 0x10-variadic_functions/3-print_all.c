@@ -32,7 +32,7 @@ void print_all(const char * const format, ...)
 				s = va_arg(ap, char *);
 
 					if (s == NULL)
-						printf("(nil)");
+						s = "(nil)";
 					printf("%s%s", separator, s);
 					break;
 				default:
