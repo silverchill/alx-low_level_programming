@@ -1,29 +1,22 @@
 #include "main.h"
 
 /**
- * _strspn - To print function that gets the length of a prefix substring
- * @s: character
- * @accept: input
+ * _strcmp - To print a function that compares two strings
+ * @s1: Is the input value
+ * @s2: Is the input value
  * Return: 0
  */
-unsigned int _strspn(char *s, char *accept)
+int _strcmp(char *s1, char *s2)
 {
-	int q;
-	unsigned int n;
+	int p = 0;
 
-	while (*s)
+	while (s1[p] != '\0' && s2[p] != '\0')
 	{
-		for (q = 0; accept[q]; q++)
+		if (s1[p] != s2[p])
 		{
-			if (*s == accept[q])
-			{
-				n++;
-				break;
-			}
-			else if (accept[q + 1] == '\0')
-				return (n);
+			return (s1[p] - s2[p]);
 		}
-		s++;
+		p++;
 	}
-	return (n);
+	return (0);
 }
