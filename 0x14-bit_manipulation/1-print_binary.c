@@ -9,7 +9,7 @@
 void print_binary(unsigned long int n)
 {
 	unsigned long int present;
-	int h = 60, count = 0;
+	int h = 63, count = 0;
 
 	while (h >= 0)
 	{
