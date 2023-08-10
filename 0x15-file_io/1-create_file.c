@@ -1,10 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
 #include "main.h"
+
+/**
+ * _strlen - To print fxn that counts string length
+ * @str: Is the string
+ * Return: The length of the string
+ */
+int _strlen(char *str)
+{
+	int len;
+
+	for (len = 0; str[len] != '\0'; len++)
+	
+	return (len);
+}
 
 /**
  * create_file - To print a fxn that creates a file
@@ -14,7 +24,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd;
+	int fd, nWrite;
 
-	fd = open(
+	fd = open(filename, O_WRONLY | O_CREAT | 0_TRUNC, 0600);
 }

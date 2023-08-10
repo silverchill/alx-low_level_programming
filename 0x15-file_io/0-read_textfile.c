@@ -18,33 +18,21 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	int fd;
 	char *buffer;
 	ssize_t nRead, nWrite;
-	
-	buffer = malloc(letters * sizeof(char));
-
-	if (filename == NULL)
-	{
-		free(buffer);
-		return (0);
-	}
-	if (buffer == NULL)
-	{
-		free(buffer);
-		return (0);
-	}
 
 	fd = open(filename, O_RDONLY);
 	if (fd == -1)
 		return (0);
-	
-	nRead = read(fd, buffer, sizeof(buffer));
 
+	if (filename == NULL)
+		return (0);
+
+	buffer = malloc(letters * sizeof(char));
+	
+	nRead = read(fd, buffer, letters);
 	if (nRead == -1)
 		return (0);
 
-	buffer[nRead] = '\0';
-
 	nWrite = write(STDOUT_FILENO, buffer, nRead);
-
 	if (nWrite != nRead)
 		return (0);
 
