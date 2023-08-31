@@ -1,1 +1,1 @@
-Solving bit-manipulation related tasks
+Solving bit manipulation related task
